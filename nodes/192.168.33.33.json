@@ -1,0 +1,5 @@
+{
+    "java":{ "install_flavor":"openjdk", "jdk_version":"7"},
+    "newgit":{ "version":"1.8.3.4","source_uri": "https://git-core.googlecode.com/files/git-1.8.3.4.tar.gz"},
+    "run_list":[ "yum", " newgit", "java", "hinemos" ]
+}

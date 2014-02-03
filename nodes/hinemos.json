@@ -1,0 +1,4 @@
+{
+    "java":{ "install_flavor":"openjdk", "jdk_version":"6"},
+    "run_list":["git", "java" ]
+}
